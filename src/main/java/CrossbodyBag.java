@@ -41,7 +41,6 @@ public class CrossbodyBag extends Bag{
     public int getNumberOfStraps(){
         return this.numberOfStraps;
     }
-//    do i need to use enhance here too??
 
     @Override
     public void enhance() {
@@ -50,7 +49,7 @@ public class CrossbodyBag extends Bag{
 
     @Override
     public String toString(){
-        return this.color + "Crossbody Bag with " + this.numberOfStraps + " straps";
+        return this.getColor() + "Crossbody Bag with " + this.numberOfStraps + " straps";
     }
 //    private variable unable to access Bag
 }
